@@ -1,4 +1,3 @@
-
 const bodyLogin = document.querySelector("#bodyLogin");
 
 bodyLogin.classList.remove('opacity0');
@@ -80,7 +79,7 @@ $("#btnLogin").on("click", function () {
 
         // Enviar los datos con AJAX
         $.ajax({
-            url: "controller/registrarUsuario.php",
+            url: "api/registrarUsuario.php",
             method: "POST",
             data: {
                 usuario: strEmailUser,
