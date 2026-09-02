@@ -79,7 +79,7 @@ $("#btnLogin").on("click", function () {
 
         // Enviar los datos con AJAX
         $.ajax({
-            url: "api/registrarUsuario.js",
+            url: "/api/registrarUsuario",
             method: "POST",
             data: {
                 usuario: strEmailUser,
